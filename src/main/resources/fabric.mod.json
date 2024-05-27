@@ -3,9 +3,9 @@
 	"id": "adventurers_delight",
 	"version": "${version}",
 	"name": "Adventurers Delight",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "WIP",
 	"authors": [
-		"Me!"
+		"Zaess, "
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.adventurers_delight.AdventurersDelight"
+		],
+		"client": [
+			"com.adventurers_delight.AdventurersDelightClient"
 		],
 		"fabric-datagen": [
 			"com.adventurers_delight.AdventurersDelightDataGenerator"
